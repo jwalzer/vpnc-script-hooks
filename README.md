@@ -28,7 +28,7 @@ Additionally this file will call host-specific setup scripts which are stored be
 ## examples
 
 There are currently two directories supplied, but others can be symlinked yourself.
-In `connect.d` you can see a subdirectory `by_host`. An example config that is used to connect to `vpn.example.com` has to be saved there with exactly this domain name.
+In `post-connect.d` you can see a subdirectory `by_host`. An example config that is used to connect to `vpn.example.com` has to be saved there with exactly this domain name.
 
 ```
   echo "called hook for vpn.example.com ... starting async setup"
